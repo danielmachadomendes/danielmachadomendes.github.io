@@ -1539,18 +1539,6 @@
 				write("<center><h2><b><font color='#000000'>Você é um:\<\/font>\<\/b>\<\/h2>\<\/center>");
 				write("<br><center><h1><b>");
 
-				switch (align) {
-					case "lg": write("Bondoso e Legítimo (Lawful Good) "); break;
-					case "ng": write("Bondoso e Neutro (Neutral Good) "); break;
-					case "cg": write("Bondoso e Caótico (Chaotic Good) "); break;
-					case "ln": write("Neutro e Legítimo (Lawful Neutral) "); break;
-					case "nn": write("Neutro Natural (True Neutral) "); break;
-					case "cn": write("Neutro e Caótico (Chaotic Neutral) "); break;
-					case "le": write("Maldoso e Legítimo (Lawful Evil) "); break;
-					case "ne": write("Maldoso e Neutro (Neutral Evil) "); break;
-					case "ce": write("Maldoso e Caótico (Chaotic Evil) ");
-				}
-
 				switch (race) {
 					case "human": write("Humano"); break;
 					case "halfling": write("Halfling"); break;
@@ -1612,6 +1600,18 @@
 					if (level == 8) { write(" (Nível 4/4)"); }
 					if (level == 9) { write(" (Nível 5/4)"); }
 					if (level == 10) { write(" (Nível 5/5)"); }
+				}
+
+				switch (align) {
+					case "lg": write(" Bondoso e Legítimo (Lawful Good) "); break;
+					case "ng": write(" Bondoso e Neutro (Neutral Good) "); break;
+					case "cg": write(" Bondoso e Caótico (Chaotic Good) "); break;
+					case "ln": write(" Neutro e Legítimo (Lawful Neutral) "); break;
+					case "nn": write(" Neutro Natural (True Neutral) "); break;
+					case "cn": write(" Neutro e Caótico (Chaotic Neutral) "); break;
+					case "le": write(" Maldoso e Legítimo (Lawful Evil) "); break;
+					case "ne": write(" Maldoso e Neutro (Neutral Evil) "); break;
+					case "ce": write(" Maldoso e Caótico (Chaotic Evil) ");
 				}
 
 				write("\<\/h1>");
@@ -1708,7 +1708,7 @@
 					case "ce": write("Maldoso e Caótico (Chaotic Evil):\<\/b> Um caráter maligno caótico faz o que sua ganância, ódio e luxúria pela destruição o levam a fazer. Ele é de temperamento quente, cruel, arbitrariamente violento e imprevisível. Se ele está simplesmente para ganhar, ele é cruel e brutal. Se ele está comprometido com a disseminação do mal e do caos, ele é ainda pior. Felizmente, seus planos são aleatórios, e quaisquer grupos a quem ele pertença ou crie são sempre mal organizados. Normalmente, pessoas malignas caóticas podem ser obrigadas a trabalhar juntas pela força, o seu líder dura apenas enquanto ele conseguir frustrar as tentativas de derrubá-lo ou assassiná-lo. O mal caótico às vezes é chamado de demoníaco porque os demônios são o epítome do mal caótico. O mal caótico é o melhor alinhamento que você pode ter porque combina interesse próprio e pura liberdade. No entanto, o mal caótico pode ser um alinhamento perigoso, porque representa a destruição não apenas da beleza e da vida, mas também da ordem da qual dependem a beleza e a vida.");
 				}
 
-				write("<br><br><u>Race:\<\/u><br><b>");
+				write("<br><br><u>Raça:\<\/u><br><b>");
 
 				switch (race) {
 					case "human": write("Humanos\<\/b> são os mais adaptáveis das raças comuns. As gerações curtas, uma propensão à migração e a conquista também os tornaram fisicamente diversos. Os seres humanos geralmente são pouco ortodoxos em seus vestidos, com penteados incomuns, roupas fantasiosas, tatuagens e coisas do gênero."); break;
@@ -1722,9 +1722,9 @@
 
 				write("<br><br><u>");
 
-				if (secclass != "none") { write("Classe "); }
+				if (secclass == "none") { write("Classe Primária:"); }
 
-				write("Primária:\<\/u><br><b>");
+				write("Classe Primária:\<\/u><br><b>");
 
 				switch (primclass) {
 					case "fighter": write("Lutador:\<\/b> Os combatentes (fighters) podem ser muitas coisas, de soldados a agentes criminais. Alguns vêem a aventura como uma maneira de ficar rico, enquanto outros usam suas habilidades para proteger os inocentes. Os lutadores têm as melhores capacidades de combate geral das classes de PC e são treinadas para usar todas as armas e armaduras padrão. O rigoroso treinamento marcial de um lutador concede a ele muitas capacidades bônus à medida que ele progride, e os combatentes de alto nível têm acesso a manobras corpo a corpo especiais e armas exóticas que não estão disponíveis para nenhum outro personagem."); break;

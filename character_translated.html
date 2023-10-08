@@ -72,7 +72,7 @@
 			var warlock = 0;
 
 			var deitychk = 0;
-			if (survey.deity.checked) deitychk = 1;
+			//if (survey.deity.checked) deitychk = 1;
 			var deity = "";
 
 			for (i = 0; i < survey.q41.length; i++) if (survey.q41[i].checked) value = survey.q41[i].value;
@@ -2452,6 +2452,7 @@
 				write("Neppyman disse: 'Gostas deste inquerito? Copia, cola e edita o código para fazer o seu! Por favor, me dê crédito se você o fizer, é claro, então eu estou dando a ele o crédito merecido.  ^_^<br><br>");
 
 				write("\<\/body>\<\/html>");
+            	close();
 
 			};
 		};

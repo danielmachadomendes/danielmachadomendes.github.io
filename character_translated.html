@@ -72,7 +72,7 @@
 			var warlock = 0;
 
 			var deitychk = 0;
-			<!--	if (survey.deity.checked) deitychk = 1;-->
+			if (survey.deity.checked) deitychk = 1;
 			var deity = "";
 
 			for (i = 0; i < survey.q41.length; i++) if (survey.q41[i].checked) value = survey.q41[i].value;
@@ -2457,6 +2457,7 @@
 				write("\<\/body>\<\/html>");
 
 			}
+		}
 
 	</script>
 
@@ -3767,7 +3768,7 @@ will -->
 </p>
 <center>
 	<a class="button">
-		<input onclick="process();" type="button" value="What D&amp;D Character Am I?" />
+		<input onclick="process();" type="button" value="Que personagem D&D sou eu?" />
 	</a>
 	<br /><br />
 	<i>Before clicking, make sure JavaScript is enabled, and that all pop-up window-managers are disabled!</i>

@@ -6,6 +6,10 @@ add it to your list in Multiplayer
 
 <img width="865" height="523" alt="image" src="https://github.com/user-attachments/assets/d0095712-a003-4cce-a59e-0403feb5fd0e" />
 
+fill it with the ip and the name you want for it
+
+<img width="863" height="520" alt="image" src="https://github.com/user-attachments/assets/850dbe56-33ba-4aea-bf46-7a995c077fea" />
+
 join our discord server
 
   if you paid for minecraft the next step is not needed, just use your Minecraft Laucher

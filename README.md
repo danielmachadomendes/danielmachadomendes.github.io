@@ -4,6 +4,8 @@ our minecraft server 13.48.10.204:25565
 
 join our discord server
 
+  if you paid for minecraft the next step is not needed, just use your Minecraft Laucher
+
 if you do not have paid for minecraft, click here [PrismLauncher-Windows-MSVC-Setup-10.0.5.exe](https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/10.0.5/PrismLauncher-Windows-MSVC-Setup-10.0.5.exe)
 
 download the laucher

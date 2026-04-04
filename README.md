@@ -1,4 +1,3 @@
-# danielmachadomendes.github.io
 website for my personal stuff and also another public stuff
 
 our minecraft server 13.48.10.204:25565

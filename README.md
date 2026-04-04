@@ -10,6 +10,10 @@ fill it with the ip and the name you want for it
 
 <img width="863" height="520" alt="image" src="https://github.com/user-attachments/assets/850dbe56-33ba-4aea-bf46-7a995c077fea" />
 
+and join whenever
+
+<img width="863" height="522" alt="image" src="https://github.com/user-attachments/assets/98054fd4-ceab-4a9e-9019-c3a645cf6433" />
+
 join our discord server
 
   if you paid for minecraft the next step is not needed, just use your Minecraft Laucher

@@ -2,6 +2,10 @@ website for my personal stuff and also another public stuff
 
 our minecraft server 13.48.10.204:25565
 
+add it to your list in Multiplayer
+
+<img width="865" height="523" alt="image" src="https://github.com/user-attachments/assets/d0095712-a003-4cce-a59e-0403feb5fd0e" />
+
 join our discord server
 
   if you paid for minecraft the next step is not needed, just use your Minecraft Laucher

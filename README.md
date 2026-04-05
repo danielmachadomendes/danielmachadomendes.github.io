@@ -1,6 +1,10 @@
 website for my personal stuff and also another public stuff
 
+join our discord server [work in progress]
+
 our minecraft server 13.48.10.204:25565
+
+#1.  if you paid for minecraft, just use your Minecraft Laucher
 
 add it to your list in Multiplayer
 
@@ -14,9 +18,7 @@ and join whenever
 
 <img width="863" height="522" alt="image" src="https://github.com/user-attachments/assets/98054fd4-ceab-4a9e-9019-c3a645cf6433" />
 
-join our discord server
-
-  if you paid for minecraft the next step is not needed, just use your Minecraft Laucher
+#2. if you paid for minecraft the next step is NOT needed, just use your Minecraft Laucher
 
 if you do not have paid for minecraft, click here [PrismLauncher-Windows-MSVC-Setup-10.0.5.exe](https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/10.0.5/PrismLauncher-Windows-MSVC-Setup-10.0.5.exe)
 
